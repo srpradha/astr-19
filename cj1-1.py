@@ -1,17 +1,17 @@
 # constants for ANSI color codes
-GREEN = "\033[92m"
+GREEN   = "\033[92m"
 MAGENTA = "\033[35m"
-CYAN = "\033[36m"
-RESET = "\033[0m"
+CYAN    = "\033[36m"
+RESET   = "\033[0m"
 
 
 # main function
 def main():
     # variables
     full_name = "Samik Pradhan"
-    pronouns = "he/him/his"
+    pronouns  = "he/him/his"
     fav_movie = "Interstellar"
-    fav_food = "ramen"
+    fav_food  = "ramen"
 
     # full message
     message = (
