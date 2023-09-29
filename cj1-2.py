@@ -1,26 +1,36 @@
+# function that asks user to provide a float
 def get_float() -> float:
+    # loop until valid input received
     while True:
+        # get user input
         user_input = input("Enter a float: ")
 
+        # test input to see if it is valid
         try:
             fl = float(user_input)
             break
         except:
             print("Invalid input! Try again.")
 
+    # return user input as a float
     return fl
 
 
+# function that asks user to provide an int
 def get_int() -> int:
+    # loop until valid input received
     while True:
+        # get user input
         user_input = input("Enter an integer: ")
 
+        # test input to see if it is valid
         try:
             i = int(user_input)
             break
         except:
             print("Invalid input! Try again.")
 
+    # return user input as an int
     return i
 
 
