@@ -1,8 +1,3 @@
-"""What I learned:
-I learned how to create functions. I also learned how to call functions.
-"""
-
-
 # function that cubes a value and adds 8 to that result
 def f(x):
     return (x * x * x) + 8
