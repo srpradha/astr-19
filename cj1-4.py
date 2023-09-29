@@ -1,8 +1,3 @@
-"""What I learned:
-I learned how to create a class. I also learned how to create member methods for the class
-"""
-
-
 # Pangolin class
 class Pangolin:
     # initializer function
