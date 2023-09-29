@@ -1,9 +1,3 @@
-"""What I learned:
-I learned how to get user input and test to make sure they are valid.
-I also learned how to do arithmetic operations and print the types of variables.
-"""
-
-
 def get_float() -> float:
     while True:
         user_input = input("Enter a float: ")
