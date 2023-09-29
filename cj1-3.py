@@ -12,7 +12,7 @@ def main():
     result = f(x)
 
     # printing the result of the function
-    print(result)
+    print(f"{x}^3 + 8 = {result}")
 
     # if statement to print "YAY!" if the result is >27
     if result > 27:
